@@ -1,0 +1,98 @@
+#map{
+   width: 600px;
+   height: 600px;
+   opacity: 0.8;
+}
+
+.section-contact-page{
+
+}
+
+.info-wrapper{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   width: 80%;
+   margin: 0 auto;
+}
+
+.info-block{
+   width: 100%;
+   margin: 0 auto;
+   background-image: url(../images/images-contact/Знімок\ екрана\ 2023-01-09\ о\ 17.42\ 1.png);
+   
+}
+
+.info-images{
+   display: flex;
+   justify-content: space-between;
+   width: 60%;
+   margin: 0 auto;
+}
+
+.contact-wrapper{
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+   height: 750px;
+}
+
+.contact-info-block{
+   margin-top: 20px;
+   margin-bottom: 80px;
+   width: 170vh;
+   margin: 0 auto;
+}
+
+.info-block-contact-item{
+   display: flex;
+   align-items: center;
+}
+
+.contact-item-nfo{
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+   height: 60px;
+}
+
+.contact-item-nfo span{
+   font-family: 'Inter';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 18px;
+   line-height: 22px;
+   color: #ffffffc8;
+}
+
+.span-title{
+   font-family: 'Inter';
+font-style: normal;
+font-weight: 800;
+font-size: 22px;
+line-height: 27px;
+/* identical to box height */
+
+color: rgba(255, 255, 255, 0.9);
+
+}
+
+.info-block-contact-item img{
+   padding-right: 30px;
+}
+
+.info-block-contact{
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+   height: 600px;
+   width: 400px;
+   padding: 50px;
+   margin-left: 60px;
+   background-color: rgba(0, 0, 0, 0.557);
+   
+}
+
+.info-images img:hover{
+transform: scale(1.2);
+}

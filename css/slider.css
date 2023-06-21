@@ -1,0 +1,54 @@
+.splide__slide img{
+   width: 80%;
+   margin: 0 auto;
+   margin-left: 10%;
+   border-radius: 10px;
+   opacity: 0.6;
+}
+
+.splide__slide img:hover{
+   cursor: pointer;
+   opacity: 0.9;
+   /* transform: scale(1.1);
+   animation-duration: 22000ms; */
+
+}
+#carousel-heading{
+   font-family: 'Bayon';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 42px;
+   line-height: 58px;
+/* identical to box height */
+
+   color: rgba(255, 255, 255, 0.9);
+
+}
+
+.splide{
+   margin-top: 40px;
+}
+.portfolio-wrapper{
+   padding-bottom: 10px;
+}
+.section-portfolio-page{
+   width: 80%;
+   margin: 0 auto;
+}
+
+.splide__track{
+   margin-top: 40px;
+   padding-bottom: 70px;
+}
+
+.splide__arrow{
+   /* background-color: aqua; */
+   background-color: #631813;
+   width: 50px;
+   height: 50px;
+}
+
+.splide__pagination__page.is-active{
+   background-color: #631813;
+   transform: scale(2);
+}

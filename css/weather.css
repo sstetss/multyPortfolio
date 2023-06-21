@@ -1,0 +1,146 @@
+
+
+.wrapper-weather{
+   width: 100%;
+   height: 80vh;
+   padding: 50px 200px ;
+   background-image: url(/images/images-player/images/image\ 4.png);
+}
+
+/* search */
+.search{
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   padding-bottom: 20px;
+   padding-top: 20px;
+   background-color: #0000009c;
+   border-radius: 10px;
+   box-shadow: -5px -5px 15px 0px #0000009c, 5px 5px 15px 0px #0000009c;
+}
+
+.search-input img{
+   width: 40px;
+}
+
+.search-input{
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   width: 300px;
+}
+
+#cityInput{
+   background: none;
+   border: none;
+   border-bottom: 3px solid #631813;
+   font-size: 25px;
+   color: whitesmoke;
+
+}
+
+.search h4{
+   font-size: 35px;
+   text-transform: uppercase;
+   color: #631813;
+}
+
+/* city-info */
+
+.city-info{
+   margin-top: 50px;
+   padding: 50px 70px;
+   background: rgba(0, 0, 0, 0.803);
+  border-radius: 2em;
+  box-shadow: -5px -5px 15px 0px #631813, 5px 5px 15px 0px #631813;
+  height: 50vh;
+}
+.weather-text-style{
+   color: rgba(245, 245, 245, 0.817);
+}
+
+.city-info-text span{
+   font-size: 25px;
+   color: #631813;
+}
+
+#weather-img-page{
+   width: 250px;
+   height: 200px;
+   margin-bottom: 50px;
+}
+
+#cityForecast-page{
+   text-transform: uppercase;
+   font-size: 30px;
+}
+
+.city-info-text{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   margin-bottom: 20px;
+}
+.weather-text-style{
+   color: #f5f5f5d0;
+}
+
+.weather-box{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding: 20px 40px;
+}
+
+.box-img{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: space-between;
+}
+
+.temp-info{
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+   height: 150px;
+}
+
+#weather-text{
+   font-size: 25px;
+   text-transform: uppercase;
+}
+
+#temperature-page{
+   font-size: 70px;
+   color: #f5f5f5d0;
+}
+
+.temp-info span{
+   font-size: 22px;
+}
+
+
+.error{
+   display: none;
+   width: 100%;
+   height: 30vh;
+   text-align: center;
+  font-size: 40px;
+  color: #631813;
+
+}
+
+.error-open{
+   display: block;
+}
+
+.open{
+   display: flex;
+   flex-direction: column;
+}
+
+.open-box{
+   display: none;
+}
+

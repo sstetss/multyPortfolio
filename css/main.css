@@ -1,0 +1,147 @@
+.section-main-page{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   width: 80%;
+   margin: 0 auto;
+   margin-top: 100px;
+}
+
+
+
+.main-info{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+   height: 650px;
+}
+
+
+.main-info-animation{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+/* weather */
+.weather{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   width: 32%;
+   margin-right: 70px;
+}
+
+#cityForecastMain,
+#temperaturemain{
+   font-family: 'Bebas Neue';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 36px;
+   line-height: 43px;
+   text-transform: uppercase;
+   color: #FFFFFF;
+
+}
+.weather-info{
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+   height: 100px;
+}
+
+.weather-img-main{
+   margin-right: 30px;
+}
+
+#weatherImgmain{
+   width: 150px;
+   height: 150px;
+}
+
+/* money */
+.money{
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+   /* width: 60%; */
+   height: 100px;
+   
+}
+
+.span-val{
+   font-family: 'Bebas Neue';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 42px;
+   line-height: 38px;
+   text-transform: uppercase;
+   color: #781F1B;
+   margin-right: 10px;
+
+}
+
+.span-price{
+   font-family: 'Bebas Neue';
+font-style: normal;
+font-weight: 400;
+font-size: 42px;
+line-height: 38px;
+text-transform: uppercase;
+
+color: #FFFFFF;
+}
+
+/* main-info */
+
+#main-info-title-main{
+   font-family: 'Bebas Neue';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 70px;
+   line-height: 96px;
+   text-transform: uppercase;
+   color: rgba(255, 255, 255, 0.9);
+   max-width: 400px;
+}
+
+.main-info-text{
+   font-family: 'Montserrat';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 20px;
+   line-height: 24px;
+   text-align: justify;
+   letter-spacing: 0.015em;
+   color: #FFFFFF;
+   max-width: 500px;
+}
+
+.main-info-button{
+   width: 200px;
+   height: 50px;
+   background: #631813;
+   box-shadow: 0px 3px 10px 5px rgba(99, 24, 19, 0.5);
+   border-radius: 10px;
+   text-align: center;
+   padding-top: 5px;
+}
+
+.main-info-button a{
+   
+   text-decoration: none;
+   font-family: 'Bayon';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 24px;
+   line-height: 43px;
+   text-align: justify;
+   letter-spacing: 0.015em;
+   color: rgba(255, 255, 255, 0.8);
+}
+#main-logo-img{
+   width: 770px;
+   box-shadow: none;
+   height: 570px;
+   zoom: 120%;
+   margin-left: 100px;
+}
